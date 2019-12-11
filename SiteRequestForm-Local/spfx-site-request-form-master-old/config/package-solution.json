@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-site-request-form-client-side-solution",
+    "id": "76a51481-8da1-4584-a448-3a61665970de",
+    "version": "1.1.2.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-site-request-form.sppkg"
+  }
+}

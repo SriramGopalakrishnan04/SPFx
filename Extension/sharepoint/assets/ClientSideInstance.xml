@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HideShare"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="aa3c31ed-fcbb-48d2-a85d-37715cf144ca"
+        Properties="{&quot;cssurl&quot;:&quot;/Style%20Library/HideShare.css&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

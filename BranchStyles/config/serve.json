@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://geton365.sharepoint.com/sites/Branch4",
+      "customActions": {
+        "a4183b7b-9111-4a3e-92eb-5d643f210b67": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl":"/Style%20Library/BranchStyles.css"
+          }
+        }
+      }
+    },
+    "branchStyles": {
+      "pageUrl": "https://geton365.sharepoint.com/sites/Branch4",
+      "customActions": {
+        "a4183b7b-9111-4a3e-92eb-5d643f210b67": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssurl":"/Style%20Library/BranchStyles.css"
+          }
+        }
+      }
+    }
+  }
+}

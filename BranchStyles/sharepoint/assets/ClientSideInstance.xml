@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="BranchStyles"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="a4183b7b-9111-4a3e-92eb-5d643f210b67"
+        Properties="{&quot;cssurl&quot;:&quot;/Style%20Library/BranchStyles.css&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

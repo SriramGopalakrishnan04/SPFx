@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-form-with-pn-p-controls-client-side-solution",
+    "id": "ba3d1d41-7a3b-421a-90b2-87f1a1b44b71",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/react-form-with-pn-p-controls.sppkg"
+  }
+}

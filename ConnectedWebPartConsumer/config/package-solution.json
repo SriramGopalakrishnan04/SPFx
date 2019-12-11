@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "connected-web-part-consumer-client-side-solution",
+    "id": "b23ff351-c3b4-4a6b-815b-5c7d767c7474",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/connected-web-part-consumer.sppkg"
+  }
+}

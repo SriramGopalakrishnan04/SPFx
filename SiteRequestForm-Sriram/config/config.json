@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "share-point-site-request-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointSiteRequestForm/SharePointSiteRequestFormWebPart.js",
+          "manifest": "./src/webparts/sharePointSiteRequestForm/SharePointSiteRequestFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SharePointSiteRequestFormWebPartStrings": "lib/webparts/sharePointSiteRequestForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

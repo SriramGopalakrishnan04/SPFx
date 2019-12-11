@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-share-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideShare/HideShareApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideShare/HideShareApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideShareApplicationCustomizerStrings": "lib/extensions/hideShare/loc/{locale}.js"
+  }
+}

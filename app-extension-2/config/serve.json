@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://geton365.sharepoint.com/sites/TeamSiteNoGroup",
+      "customActions": {
+        "b098790a-e7cb-438a-a9b5-58d803e1b244": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssUrl": "https://geton365.sharepoint.com/siteassets/HideRecycleBin.css"
+          }
+        }
+      }
+    },
+    "appcustomizer": {
+      "pageUrl": "https://geton365.sharepoint.com/sites/TeamSiteNoGroup",
+      "customActions": {
+        "b098790a-e7cb-438a-a9b5-58d803e1b244": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "cssUrl": "https://geton365.sharepoint.com/siteassets/HideRecycleBin.css"
+          }
+        }
+      }
+    }
+  }
+}

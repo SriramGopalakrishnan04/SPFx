@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="HideRecycleBin"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="dc35b52f-7fb9-480a-8727-2e70b7666d37"
+        ClientSideComponentProperties="{&quot;&quot;:&quot;/Style%20library/HideShare.css&quot;}">
+    </CustomAction>
+</Elements>

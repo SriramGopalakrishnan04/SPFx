@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "my-react-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/myReactForm/MyReactFormWebPart.js",
+          "manifest": "./src/webparts/myReactForm/MyReactFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MyReactFormWebPartStrings": "lib/webparts/myReactForm/loc/{locale}.js"
+  }
+}
