@@ -28,15 +28,27 @@ export default class BranchStylesApplicationCustomizer
     Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
 
     //Inject the style element
-    const cssURL: string = this.properties.cssurl;    
+      
     const head: any = document.getElementsByTagName("head")[0] || document.documentElement;
-    let customStyle: HTMLLinkElement = document.createElement("link");
-    customStyle.href = "/Style%20Library/BranchStyles.css";
-    customStyle.rel = "stylesheet";
-    customStyle.type = "text/css";
-    console.log("cssurl:"+this.properties.cssurl);
-    console.log("BranchStyles injected the style:"+customStyle.outerHTML);
-    head.insertAdjacentElement("beforeEnd", customStyle);
+
+    //Beginning of adding custom css file
+    // const cssURL: string = this.properties.cssurl;  
+    // let customStyle: HTMLLinkElement = document.createElement("link");
+    // customStyle.href = "/Style%20Library/BranchStyles.css";
+    // customStyle.rel = "stylesheet";
+    // customStyle.type = "text/css";
+    // console.log("cssurl:"+this.properties.cssurl);
+    // console.log("BranchStyles injected the style:"+customStyle.outerHTML);
+    // head.insertAdjacentElement("beforeEnd", customStyle);
+    //End of adding custom css file
+    
+    let styleElement = document.createElement("style");
+    //customStyle.innerHTML="'button[name='Share'] {display: none;} button[data-automationid='ShareSiteButton'] {display: none;}'";
+    var customStyle="button[name='Share'] {display: none;} button[data-automationid='ShareSiteButton'] {display: none;}";
+    styleElement.type="text/css";
+    styleElement.appendChild(document.createTextNode(customStyle))
+    console.log(styleElement.innerHTML);
+    head.insertAdjacentElement("beforeEnd", styleElement);
 
     return Promise.resolve();
   }

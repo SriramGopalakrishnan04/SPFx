@@ -4,7 +4,7 @@ render() {
     return (
         <body>
         <div>
-            Hello, I am trial
+            Hello, I am trial1
         </div>
         </body>
     );
