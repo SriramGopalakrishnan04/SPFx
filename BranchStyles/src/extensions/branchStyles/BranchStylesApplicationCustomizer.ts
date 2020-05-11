@@ -44,9 +44,9 @@ export default class BranchStylesApplicationCustomizer
     
     let styleElement = document.createElement("style");
     //customStyle.innerHTML="'button[name='Share'] {display: none;} button[data-automationid='ShareSiteButton'] {display: none;}'";
-    var customStyle="button[name='Share'] {display: none;} button[data-automationid='ShareSiteButton'] {display: none;}";
+    var customStyle="button[name='Share'] {display: none;} button[data-automationid='ShareSiteButton'] {display: none;} button[name='Move to'] {display: none;} ";
     styleElement.type="text/css";
-    styleElement.appendChild(document.createTextNode(customStyle))
+    styleElement.appendChild(document.createTextNode(customStyle));
     console.log(styleElement.innerHTML);
     head.insertAdjacentElement("beforeEnd", styleElement);
 
